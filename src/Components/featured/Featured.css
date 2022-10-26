@@ -1,0 +1,47 @@
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ferauredItem {
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    /* height: 250px; */
+}
+
+.featuredImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredTittles {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.tittle {
+    color: whitesmoke;
+}
+
+.featuredTttle {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.desc {
+    margin-top: -10px;
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12;
+    color: grey;
+}
